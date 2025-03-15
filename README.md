@@ -23,13 +23,6 @@ This MATLAB project implements an optimization-based trajectory planning algorit
    - Curvature profile
    - Acceleration profile
 
-## Parameters
-- **Lateral displacement (W):** 3.5 meters
-- **Initial velocity (u):** 30 mph converted to m/s
-- **Acceleration constraints (ax, ay):** Set values for acceleration components
-- **Cost function weights:** `lambda1`, `lambda2`, `lambda3`
-- **Yaw angle error (e1):** -5 degrees converted to radians
-
 ## Functions
 - `cost_function.m`: Defines the cost function for optimization.
 - `generate_trajectory.m`: Generates the optimized vehicle trajectory based on computed parameters.
